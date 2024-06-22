@@ -147,3 +147,29 @@ footer {
     width: 100%;
     bottom: 0;
 }
+@media (min-width: 600px) {
+            .nav-bar {
+                flex-direction: column;
+            }
+
+            .nav-bar li {
+                margin: 0 20px;
+            }
+
+            .about-photos {
+                flex-direction: row;
+            }
+
+            .about-photos img {
+                width: 30%;
+            }
+
+            .services-list li {
+                flex-direction: row;
+            }
+
+            .services-list img {
+                width: 150px;
+                margin-right: 20px;
+            }
+        }
